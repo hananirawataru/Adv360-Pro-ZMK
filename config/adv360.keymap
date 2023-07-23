@@ -19,8 +19,10 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-  behaviors {
-    #include "macros.dtsi"
+    #include "combos.keymap"
+
+    behaviors {
+      #include "macros.dtsi
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
