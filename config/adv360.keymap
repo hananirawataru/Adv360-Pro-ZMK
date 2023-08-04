@@ -19,10 +19,8 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    #include "combos.keymap"
-
-    behaviors {
-      #include "macros.dtsi"
+  behaviors {
+    #include "macros.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -42,8 +40,8 @@
         default_layer {
             bindings = <
      &none         &kp N1     &kp N2    &kp N3     &kp N4  &kp N5                      &tog 1                                                                                                  &mo 3  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &none
-   &kp TAB        &kp SQT  &kp COMMA   &kp DOT      &kp P   &kp Y                       &none                                                                                                  &none   &kp F   &kp G     &kp C     &kp R     &kp L   &kp FSLH
-   &kp ESC          &kp A      &kp O     &kp E      &kp U   &kp I                       &none  &kp LCTRL       &kp LALT                      &kp LGUI                 &kp RCTRL                &none   &kp D   &kp H     &kp T     &kp N     &kp S  &kp MINUS
+   &kp TAB        &kp SQT  &kp COMMA   &kp DOT      &kp P   &kp Y               &kp LG(SPACE)                                                                                                 &tog 4   &kp F   &kp G     &kp C     &kp R     &kp L   &kp FSLH
+   &kp ESC          &kp A      &kp O     &kp E      &kp U   &kp I                &macro_LGSP4  &kp LCTRL       &kp LALT                      &kp LGUI                 &kp RCTRL         &macro_LCSP4   &kp D   &kp H     &kp T     &kp N     &kp S  &kp MINUS
  &kp MINUS  &kp SEMICOLON      &kp Q     &kp J      &kp K   &kp X                                                 &none                        &tog 4                                                  &kp B   &kp M     &kp W     &kp V     &kp Z  &kp GRAVE
      &mo 2       &kp BSLH      &none  &kp LEFT  &kp RIGHT                    &mt LSHIFT SPACE      &mo 2  &kp RG(SPACE)                  &macro_LGSP4  &mt RIGHT_COMMAND RETURN  &mt RCTRL BACKSPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
