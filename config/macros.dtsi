@@ -303,14 +303,14 @@ macro_JPTEN: macro_JPTEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPTEN";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp A>, <&kp (>, <&kp P>, <&kp E>, <&kp R>, <&kp I>, <&kp O>, <&kp D>, <&kp )>;
+bindings = <&kp LA(PERIOD)>;
 };
 
 macro_JPEN: macro_JPEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPEN";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp A>, <&kp (>, <&kp B>, <&kp A>, <&kp C>, <&kp K>, <&kp S>, <&kp L>, <&kp A>, <&kp S>, <&kp H>, <&kp )>;
+bindings = <&kp LA(BACKSLASH)>;
 };
 
 macro_JPSLASHL: macro_JPSLASHL{
@@ -450,7 +450,7 @@ macro_JPRDKAGIL: macro_JPRDKAGIL{
 compatible = "zmk,behavior-macro";
 label = "macro_JPRDKAGIL";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp S>, <&kp (>, <&kp R>, <&kp B>, <&kp K>, <&kp T>, <&kp )>;
+bindings = <&kp LS(RBKT)>;
 };
 
 macro_XA: macro_XA{
@@ -653,7 +653,7 @@ macro_JPQMARKR: macro_JPQMARKR{
 compatible = "zmk,behavior-macro";
 label = "macro_JPQMARKR";
 #binding-cells = <0>;
-bindings = <&kp Q>, <&kp M>, <&kp A>, <&kp R>, <&kp K>;
+bindings = <&kp QMARK>;
 };
 
 macro_GA: macro_GA{
@@ -723,7 +723,7 @@ macro_JPRDKAGIR: macro_JPRDKAGIR{
 compatible = "zmk,behavior-macro";
 label = "macro_JPRDKAGIR";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp S>, <&kp (>, <&kp R>, <&kp B>, <&kp K>, <&kp T>, <&kp )>;
+bindings = <&kp LS(RBKT)>;
 };
 
 macro_JI: macro_JI{
