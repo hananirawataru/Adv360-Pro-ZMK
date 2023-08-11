@@ -5,6 +5,13 @@ label = "macro_LCSP4";
 bindings = <&kp LC(SPACE)>, <&tog 4>;
 };
 
+macro_LGSP4: macro_LGSP4{
+compatible = "zmk,behavior-macro";
+label = "macro_LGSP4";
+#binding-cells = <0>;
+bindings = <&kp LG(SPACE)>, <&tog 4>;
+};
+
 macro_JPN2: macro_JPN2{
 compatible = "zmk,behavior-macro";
 label = "macro_JPN2";
