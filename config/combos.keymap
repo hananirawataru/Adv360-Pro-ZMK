@@ -1,13 +1,6 @@
 combos {
 	compatible = "zmk,combos";
 
-	combo_JPQMARKL {
-		timeout-ms = <50>;
-		key-positions = <1 65>;
-		layers = <4>;
-		bindings = <&macro_JPQMARKL>;
-	};
-
 	combo_JPSLASHL {
 		timeout-ms = <50>;
 		key-positions = <2 65>;
@@ -71,18 +64,11 @@ combos {
 		bindings = <&macro_JPLDKAGIL>;
 	};
 
-	combo_JPRDKAGIL {
-		timeout-ms = <50>;
-		key-positions = <13 65>;
-		layers = <4>;
-		bindings = <&macro_JPRDKAGIL>;
-	};
-
-	combo_XA {
+	combo_JPQMARKL {
 		timeout-ms = <50>;
 		key-positions = <15 65>;
 		layers = <4>;
-		bindings = <&macro_XA>;
+		bindings = <&macro_JPQMARKL>;
 	};
 
 	combo_E {
@@ -148,11 +134,18 @@ combos {
 		bindings = <&macro_PI>;
 	};
 
-	combo_WO {
+	combo_JPRDKAGIL {
+		timeout-ms = <50>;
+		key-positions = <27 65>;
+		layers = <4>;
+		bindings = <&macro_JPRDKAGIL>;
+	};
+
+	combo_XA {
 		timeout-ms = <50>;
 		key-positions = <29 65>;
 		layers = <4>;
-		bindings = <&macro_WO>;
+		bindings = <&macro_XA>;
 	};
 
 	combo_A {
@@ -211,11 +204,11 @@ combos {
 		bindings = <&macro_PO>;
 	};
 
-	combo_XU {
+	combo_WO {
 		timeout-ms = <50>;
 		key-positions = <47 65>;
 		layers = <4>;
-		bindings = <&macro_XU>;
+		bindings = <&macro_WO>;
 	};
 
 	combo_JPMINUS2 {
@@ -274,11 +267,11 @@ combos {
 		bindings = <&macro_BO>;
 	};
 
-	combo_JPQMARKR {
+	combo_XU {
 		timeout-ms = <50>;
-		key-positions = <1 70>;
+		key-positions = <60 65>;
 		layers = <4>;
-		bindings = <&macro_JPQMARKR>;
+		bindings = <&macro_XU>;
 	};
 
 	combo_JPSLASHR {
@@ -344,11 +337,11 @@ combos {
 		bindings = <&macro_JPLDKAGIR>;
 	};
 
-	combo_JPRDKAGIR {
+	combo_JPQMARKR {
 		timeout-ms = <50>;
-		key-positions = <13 70>;
+		key-positions = <15 70>;
 		layers = <4>;
-		bindings = <&macro_JPRDKAGIR>;
+		bindings = <&macro_JPQMARKR>;
 	};
 
 	combo_GA {
@@ -414,11 +407,11 @@ combos {
 		bindings = <&macro_XE>;
 	};
 
-	combo_VU {
+	combo_JPRDKAGIR {
 		timeout-ms = <50>;
-		key-positions = <29 70>;
+		key-positions = <27 70>;
 		layers = <4>;
-		bindings = <&macro_VU>;
+		bindings = <&macro_JPRDKAGIR>;
 	};
 
 	combo_JI {
@@ -482,6 +475,13 @@ combos {
 		key-positions = <44 70>;
 		layers = <4>;
 		bindings = <&macro_XTU>;
+	};
+
+	combo_VU {
+		timeout-ms = <50>;
+		key-positions = <47 70>;
+		layers = <4>;
+		bindings = <&macro_VU>;
 	};
 
 	combo_BI {
