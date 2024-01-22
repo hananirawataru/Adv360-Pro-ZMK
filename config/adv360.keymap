@@ -18,12 +18,17 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define default_layer 0
+#define layer_MOD   1
+#define layer_OYA   2
+#define layer_CTRL   3
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <default_layer layer_OYA>;
-            then-layer = <layer_CTRL>;
+            if-layers = <0 2>;
+            then-layer = <3>;
         };
     };
 };
