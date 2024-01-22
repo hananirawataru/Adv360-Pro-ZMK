@@ -3,31 +3,18 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "base",
-    "keypad",
-    "fn",
-    "mod",
-    "Layer #4"
+    "BASE",
+    "MOD",
+    "OYA",
+    "CTRL"
   ],
   "layers": [
     [
            "&none",     "&kp GRAVE",               "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                     "&tog 1",                                                                                                      "&mo 3", "&kp N6", "&kp N7",   "&kp N8",                "&kp N9",  "&none",         "&none",
-        "&kp LBKT",        "&kp N1",            "&kp COMMA",  "&kp DOT",     "&kp P",  "&kp Y",              "&kp LG(SPACE)",                                                                                                     "&tog 4",  "&kp F",  "&kp G",    "&kp C",                 "&kp R", "&kp N0",      "&kp RBKT",
+        "&kp LBKT",        "&kp N1",            "&kp COMMA",  "&kp DOT",     "&kp P",  "&kp Y",              "&kp LG(SPACE)",                                                                                                     "&tog 2",  "&kp F",  "&kp G",    "&kp C",                 "&kp R", "&kp N0",      "&kp RBKT",
          "&kp TAB",       "&kp SQT",                "&kp O",    "&kp E",     "&kp U",  "&kp I",               "&macro_LGSP4", "&kp LEFT_SHIFT", "&kp LCTRL",                        "&kp LALT",            "&kp RIGHT_WIN", "&macro_LCSP4",  "&kp D",  "&kp H",    "&kp T",                 "&kp N",  "&kp L",     "&kp SLASH",
          "&kp ESC",         "&kp A",                "&kp Q",    "&kp J",     "&kp K",  "&kp X",                                                  "&kp HOME",                     "&kp PAGE_UP",                                              "&kp B",  "&kp M",    "&kp W",                 "&kp V",  "&kp S",     "&kp MINUS",
-       "&kp EQUAL", "&kp SEMICOLON", "&kp LEFT_PARENTHESIS", "&kp LEFT", "&kp RIGHT",                     "&mt LSHIFT SPACE",   "&lt 2 DELETE",   "&kp END",                       "&kp PG_DN", "&mt RIGHT_COMMAND RETURN",     "&kp BSPC",           "&kp UP", "&kp DOWN", "&kp RIGHT_PARENTHESIS",  "&kp Z", "&kp BACKSLASH"
-    ], [
-        "&none",  "&none",  "&none",    "&none",     "&none",  "&none",           "&trans",                                                                    "&mo 3",  "&none", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",  "&none",
-        "&none",  "&none",  "&none",    "&none",     "&none",  "&none",            "&none",                                                                    "&none",  "&none",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",  "&none",
-        "&none",  "&none",  "&none",    "&none",     "&none",  "&none",            "&none",  "&none",  "&none",                      "&none",     "&none",     "&none",  "&none",  "&kp KP_N4",    "&kp KP_N5",     "&kp KP_N6",     "&kp KP_PLUS",  "&none",
-        "&none",  "&none",  "&none",    "&none",     "&none",  "&none",                                "&none",                      "&none",                            "&none",  "&kp KP_N1",    "&kp KP_N2",     "&kp KP_N3",    "&kp KP_ENTER",  "&none",
-        "&mo 2",  "&none",  "&none", "&kp LEFT", "&kp RIGHT",                      "&none",  "&none",  "&none",                      "&none", "&kp ENTER", "&kp KP_N0",               "&kp UP",     "&kp DOWN",    "&kp KP_DOT",           "&none",  "&mo 2"
-    ], [
-                      "&none",     "&none",  "&none",    "&none",    "&none",     "&none",            "&none",                                                               "&none",     "&none",     "&none",     "&none",                "&none",                 "&none",                 "&none",
-                      "&none",     "&none", "&kp F2",   "&kp F3",   "&kp F4",    "&kp F5",            "&none",                                                               "&none",    "&kp F6",    "&kp F7",    "&kp F8",               "&kp F9",                 "&none",                 "&none",
-                    "&kp F12",    "&kp F1", "&kp N2",   "&kp N3",   "&kp N4",    "&kp N5",            "&none", "&trans", "&trans",                     "&trans", "&trans",   "&none",    "&kp N6",    "&kp N7",    "&kp N8",               "&kp N9",               "&kp F10",               "&kp F11",
-       "&kp LEFT_PARENTHESIS", "&kp LC(A)", "&kp AT", "&kp HASH", "&kp DLLR", "&kp PRCNT",                               "&trans",                     "&trans",                      "&kp CARET",  "&kp AMPS",  "&kp STAR", "&kp LEFT_PARENTHESIS",                "&kp N0", "&kp RIGHT_PARENTHESIS",
-                   "&kp LBKT",  "&kp EXCL", "&trans", "&kp HOME",  "&kp END",                        "&trans", "&trans", "&trans",                     "&trans", "&trans", "&kp DEL",              "&kp PG_UP", "&kp PG_DN",             "&kp LBKT", "&kp RIGHT_PARENTHESIS",              "&kp RBKT"
+       "&kp EQUAL", "&kp SEMICOLON", "&kp LEFT_PARENTHESIS", "&kp LEFT", "&kp RIGHT",                     "&mt LSHIFT SPACE",   "&lt 3 DELETE",   "&kp END",                       "&kp PG_DN", "&mt RIGHT_COMMAND RETURN",     "&kp BSPC",           "&kp UP", "&kp DOWN", "&kp RIGHT_PARENTHESIS",  "&kp Z", "&kp BACKSLASH"
     ], [
         "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
@@ -40,6 +27,12 @@
        "&trans", "&macro_JPPERIOD",   "&macro_SI",   "&macro_TE",   "&macro_KE",   "&macro_SE",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",   "&macro_HA",   "&macro_TO",   "&macro_KI",    "&macro_I",  "&macro_JPCOMMA1",    "&macro_JPCOMMA2",
        "&trans",        "&macro_U",   "&macro_HI",   "&macro_SU",   "&macro_HU",   "&macro_HE",                               "&trans",                     "&trans",                       "&macro_ME",   "&macro_SO",   "&macro_NE",   "&macro_HO",        "&macro_NN", "&macro_JPBACKSPACE",
        "&trans",    "&macro_JPTEN",      "&trans",      "&trans",      "&trans",                          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans",      "&trans",      "&trans", "&macro_JPNAKATEN",        "&macro_JPEN"
+    ], [
+       "&trans",    "&trans", "&trans",    "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",    "&trans", "&trans",    "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",    "&trans", "&trans", "&kp LC(E)", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&kp LC(A)", "&trans",    "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",    "&trans", "&trans",    "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
