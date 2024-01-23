@@ -19,8 +19,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-  #include "combos.keymap"
-
 　conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -28,6 +26,8 @@
             then-layer = <3>;
         };
 　};
+
+  #include "combos.keymap"
 
   behaviors {
     #include "macros.dtsi"
