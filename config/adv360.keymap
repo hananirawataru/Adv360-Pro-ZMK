@@ -26,9 +26,7 @@
             then-layer = <3>;
         };
     };
-};
 
-/ {
   #include "combos.keymap"
 
   behaviors {
