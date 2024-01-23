@@ -19,15 +19,15 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    conditional_layers {
+  #include "combos.keymap"
+
+　conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <2>;
             then-layer = <3>;
         };
-    };
-
-  #include "combos.keymap"
+　};
 
   behaviors {
     #include "macros.dtsi"
