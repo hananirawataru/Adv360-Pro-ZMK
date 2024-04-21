@@ -71,7 +71,7 @@
             bindings = <
               &none                 &none          &none           &none          &none      &none                    &none                                                                 &none      &none       &none         &none          &none      &none                  &none
               &none                 &none  &kp LC(COMMA)  &kp LC(PERIOD)      &kp LC(P)  &kp LC(Y)                    &none                                                                 &none  &kp LC(F)   &kp LC(G)     &kp LC(C)      &kp LC(R)      &none  &kp LC(RIGHT_COMMAND)
-   &kp LC(LEFT_ALT)  &kp LC(SINGLE_QUOTE)      &kp LC(O)       &kp LC(E)      &kp LC(U)  &kp LC(I)            &kp LC(PG_UP)          &none   &none                   &none   &none  &kp LC(PG_DN)  &kp LC(D)   &kp LC(H)     &kp LC(T)      &kp LC(N)  &kp LC(L)  &kp LC(RIGHT_CONTROL)
+   &kp LC(LEFT_ALT)  &kp LC(SINGLE_QUOTE)      &kp LC(O)       &kp LC(E)      &kp LC(U)  &kp LC(I)            &kp LC(PG_UP)          &none   &none                   &none   &none  &kp LC(PG_DN)  &kp LC(D)   &kp LC(H)     &kp LC(T)      &kp LC(N)  &kp LC(L)                  &none
         &kp LC(TAB)             &kp LC(A)      &kp LC(Q)       &kp LC(J)      &kp LC(K)  &kp LC(X)                                           &none                   &none                         &kp LC(B)   &kp LC(M)     &kp LC(W)      &kp LC(V)  &kp LC(S)          &kp LC(MINUS)
  &kp LC(LEFT_SHIFT)          &kp LC(SEMI)  &kp LC(SLASH)    &kp LC(LEFT)  &kp LC(RIGHT)                       &kp LC(SPACE)  &kp LC(ENTER)   &none                   &none   &none          &none             &kp LC(UP)  &kp LC(DOWN)  &kp LC(EQUAL)  &kp LC(Z)    &kp LC(RIGHT_SHIFT)
             >;
@@ -89,11 +89,11 @@
 
         layer_command {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+              &none                 &none          &none           &none          &none      &none                    &none                                                               &none      &none       &none         &none          &none      &none                  &none
+              &none                 &none  &kp LG(COMMA)  &kp LG(PERIOD)      &kp LG(P)  &kp LG(Y)                    &none                                                               &none  &kp LG(F)   &kp LG(G)     &kp LG(C)      &kp LG(R)      &none                  &none
+       &kp LG(LALT)  &kp LG(SINGLE_QUOTE)      &kp LG(O)       &kp LG(E)      &kp LG(U)  &kp LG(I)            &kp LG(PG_UP)        &none   &none                   &none   &none  &kp LG(PG_DN)  &kp LG(D)   &kp LG(H)     &kp LG(T)      &kp LG(N)  &kp LG(L)  &kp LG(RIGHT_CONTROL)
+        &kp LG(TAB)             &kp LG(A)      &kp LG(Q)       &kp LG(J)      &kp LG(K)  &kp LG(X)                                         &none                   &none                         &kp LG(B)   &kp LG(M)     &kp LG(W)      &kp LG(V)  &kp LG(S)          &kp LG(MINUS)
+ &kp LG(LEFT_SHIFT)          &kp LG(SEMI)  &kp LG(SLASH)    &kp LG(LEFT)  &kp LG(RIGHT)                       &kp LG(SPACE)  &kp LG(ESC)   &none                   &none   &none          &none             &kp LG(UP)  &kp LG(DOWN)  &kp LG(EQUAL)  &kp LG(Z)    &kp LG(RIGHT_SHIFT)
             >;
         };
 
