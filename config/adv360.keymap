@@ -79,11 +79,11 @@
 
         layer_alt {
             bindings = <
- &trans   &none   &none   &none   &none   &none            &none                                                                     &none      &none       &none         &none          &none      &none                  &none
- &trans   &none   &none   &none   &none   &none            &none                                                                     &none  &kp LA(F)   &kp LA(G)     &kp LA(C)      &kp LA(R)      &none  &kp LA(RIGHT_COMMAND)
-  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none          &none      &kp LA(PG_DN)  &kp LA(D)   &kp LA(H)     &kp LA(T)      &kp LA(N)  &kp LA(L)  &kp LA(RIGHT_CONTROL)
-  &none   &none   &none   &none   &none   &none                            &none                   &none                                    &kp LA(B)   &kp LA(M)     &kp LA(W)      &kp LA(V)  &kp LA(S)          &kp LA(MINUS)
-  &none   &none   &none   &none   &none                    &none   &none   &none                   &none  &kp LA(ENTER)  &kp LA(BACKSPACE)             &kp LA(UP)  &kp LA(DOWN)  &kp LA(EQUAL)  &kp LA(Z)    &kp LA(RIGHT_SHIFT)
+              &none                 &none          &none           &none          &none      &none                    &none                                                                     &none      &none       &none         &none          &none      &none                  &none
+              &none                 &none  &kp LA(COMMA)  &kp LA(PERIOD)      &kp LA(P)  &kp LA(Y)                    &none                                                                     &none  &kp LA(F)   &kp LA(G)     &kp LA(C)      &kp LA(R)      &none  &kp LA(RIGHT_COMMAND)
+              &none  &kp LA(SINGLE_QUOTE)      &kp LA(O)       &kp LA(E)      &kp LA(U)  &kp LA(I)            &kp LA(PG_UP)   &none   &none                   &none          &none      &kp LA(PG_DN)  &kp LA(D)   &kp LA(H)     &kp LA(T)      &kp LA(N)  &kp LA(L)  &kp LA(RIGHT_CONTROL)
+        &kp LA(TAB)             &kp LA(A)      &kp LA(Q)       &kp LA(J)      &kp LA(K)  &kp LA(X)                                    &none                   &none                                    &kp LA(B)   &kp LA(M)     &kp LA(W)      &kp LA(V)  &kp LA(S)          &kp LA(MINUS)
+ &kp LA(LEFT_SHIFT)          &kp LA(SEMI)  &kp LA(SLASH)    &kp LA(LEFT)  &kp LA(RIGHT)                               &none   &none   &none                   &none  &kp LA(ENTER)  &kp LA(BACKSPACE)             &kp LA(UP)  &kp LA(DOWN)  &kp LA(EQUAL)  &kp LA(Z)    &kp LA(RIGHT_SHIFT)
             >;
         };
 
