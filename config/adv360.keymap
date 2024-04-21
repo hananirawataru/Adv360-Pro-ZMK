@@ -69,11 +69,11 @@
 
         layer_control {
             bindings = <
-  &none   &none   &none   &none   &none   &none            &none                                                   &none   &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none            &none                                                   &none   &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none   &none   &none   &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none                            &none                   &none                   &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none                    &none   &none   &none                   &none   &none   &none           &none   &none   &none   &none   &none
+              &none                 &none          &none           &none          &none      &none                    &none                                                               &none      &none       &none         &none          &none      &none                  &none
+              &none                 &none  &kp LC(COMMA)  &kp LC(PERIOD)      &kp LC(P)  &kp LC(Y)                    &none                                                               &none  &kp LC(F)   &kp LC(G)     &kp LC(C)      &kp LC(R)      &none  &kp LC(RIGHT_COMMAND)
+   &kp LC(LEFT_ALT)  &kp LC(SINGLE_QUOTE)      &kp LC(O)       &kp LC(E)      &kp LC(U)  &kp LC(I)            &kp LC(PG_UP)        &none   &none                   &none   &none  &kp LC(PG_DN)  &kp LC(D)   &kp LC(H)     &kp LC(T)      &kp LC(N)  &kp LC(L)  &kp LC(RIGHT_CONTROL)
+        &kp LC(TAB)             &kp LC(A)      &kp LC(Q)       &kp LC(J)      &kp LC(K)  &kp LC(X)                                         &none                   &none                         &kp LC(B)   &kp LC(M)     &kp LC(W)      &kp LC(V)  &kp LC(S)          &kp LC(MINUS)
+ &kp LC(LEFT_SHIFT)          &kp LC(SEMI)  &kp LC(SLASH)    &kp LC(LEFT)  &kp LC(RIGHT)                       &kp LC(SPACE)  &kp LC(ESC)   &none                   &none   &none          &none             &kp LC(UP)  &kp LC(DOWN)  &kp LC(EQUAL)  &kp LC(Z)    &kp LC(RIGHT_SHIFT)
             >;
         };
 
