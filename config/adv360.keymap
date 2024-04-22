@@ -42,8 +42,8 @@
             bindings = <
  &kp LC(LA(DEL))             &none      &none       &none      &none   &none                &none                                                                              &mo 2   &none   &none     &none      &none   &none      &kp LC(LG(Q))
            &none             &none  &kp COMMA  &kp PERIOD      &kp P   &kp Y                &none                                                                              &none   &kp F   &kp G     &kp C      &kp R   &none  &kp RIGHT_COMMAND
-    &kp LEFT_ALT  &kp SINGLE_QUOTE      &kp O       &kp E      &kp U   &kp I            &kp PG_UP   &kp LALT           &tog 1                         &tog 1     &kt RCMD  &kp PG_DN   &kp D   &kp H     &kp T      &kp N   &kp L  &kp RIGHT_CONTROL
-         &kp TAB             &kp A      &kp Q       &kp J      &kp K   &kp X                                            &none                          &none                           &kp B   &kp M     &kp W      &kp V   &kp S          &kp MINUS
+    &kp LEFT_ALT  &kp SINGLE_QUOTE      &kp O       &kp E      &kp U   &kp I            &kp PG_UP   &kp LALT           &tog 0                         &tog 1     &kt RCMD  &kp PG_DN   &kp D   &kp H     &kp T      &kp N   &kp L  &kp RIGHT_CONTROL
+         &kp TAB             &kp A      &kp Q       &kp J      &kp K   &kp X                                          &kp F11                        &kp F12                           &kp B   &kp M     &kp W      &kp V   &kp S          &kp MINUS
   &kp LEFT_SHIFT          &kp SEMI  &kp SLASH    &kp LEFT  &kp RIGHT                    &kp SPACE  &lt 6 ESC  &macro_muhenkan                  &macro_henkan  &lt 3 ENTER   &kp BSPC          &kp UP  &kp DOWN  &kp EQUAL   &kp Z    &kp RIGHT_SHIFT
             >;
         };
@@ -104,7 +104,7 @@
   &none         &none         &kp F2        &kp F3        &kp F4        &kp F5            &none                                                                &none        &kp F6        &kp F7         &kp F8        &kp F9         &none   &none
   &none        &kp F1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none   &none   &none                       &none  &kp LA(F4)        &none  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9       &kp F10   &none
   &none  &kp NUMBER_1      &kp TILDE      &kp LBKT      &kp LPAR      &kp LBRC                            &none                       &none                               &kp RBRC      &kp RPAR       &kp RBKT      &kp PIPE  &kp NUMBER_0   &none
-  &none         &none  &kp BACKSLASH      &kp HOME       &kp END                          &none   &none   &none                  &kp LA(F4)   &kp LC(W)  &kp LA(TAB)                   &kp PG_UP  &kp PAGE_DOWN     &kp GRAVE         &none   &none
+ &trans         &none  &kp BACKSLASH      &kp HOME       &kp END                          &none   &none   &none                  &kp LA(F4)   &kp LC(W)  &kp LA(TAB)                   &kp PG_UP  &kp PAGE_DOWN     &kp GRAVE         &none  &trans
             >;
         };
 
