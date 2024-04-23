@@ -17,8 +17,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  #include "combos.keymap"
-
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
@@ -54,7 +52,7 @@
   &none      &macro_JPN1        &macro_KA  &macro_TA  &macro_KO  &macro_SA             &none                                                   &none  &macro_RA  &macro_TI  &macro_KU    &macro_TU             &none           &trans
   &none  &macro_JPPERIOD        &macro_SI  &macro_TE  &macro_KE  &macro_SE            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_HA  &macro_TO  &macro_KI     &macro_I   &macro_JPCOMMA1           &trans
  &trans         &macro_U        &macro_HI  &macro_SU  &macro_HU  &macro_HE                            &trans                  &trans                  &macro_ME  &macro_SO  &macro_NE    &macro_HO         &macro_NN  &macro_JPMINUS1
-  &none     &macro_JPTEN  &macro_JPCOMMA2     &trans     &trans                       &trans  &trans  &trans                  &trans  &trans  &trans                &trans     &trans  &macro_JPEN  &macro_JPNAKATEN            &none
+ &trans     &macro_JPTEN  &macro_JPCOMMA2     &trans     &trans                       &trans  &trans  &trans                  &trans  &trans  &trans                &trans     &trans  &macro_JPEN  &macro_JPNAKATEN           &trans
             >;
         };
 
