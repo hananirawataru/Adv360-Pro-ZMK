@@ -2,13 +2,13 @@ macro_muhenkan: macro_muhenkan{
 compatible = "zmk,behavior-macro";
 label = "macro_muhenkan";
 #binding-cells = <0>;
-bindings = <&tog 0>, <&kp F11>;
+bindings = <&to 0>, <&kp F11>;
 };
 macro_henkan: macro_henkan{
 compatible = "zmk,behavior-macro";
 label = "macro_henkan";
 #binding-cells = <0>;
-bindings = <&tog 1>, <&kp F12>;
+bindings = <&to 1>, <&kp F12>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
