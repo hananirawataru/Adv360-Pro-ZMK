@@ -102,7 +102,7 @@
   &none         &none         &kp F2        &kp F3        &kp F4        &kp F5            &none                                                              &none        &kp F6        &kp F7         &kp F8        &kp F9         &none   &none
   &none        &kp F1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none   &none   &none                   &none          &none       &none  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9       &kp F10   &none
   &none  &kp NUMBER_1      &kp TILDE      &kp LBKT      &kp LPAR      &kp LBRC                            &none                   &none                                 &kp RBRC      &kp RPAR       &kp RBKT      &kp PIPE  &kp NUMBER_0   &none
- &trans         &none  &kp BACKSLASH      &kp HOME       &kp END                          &none   &none   &none                   &none  &kp LG(ENTER)  &kp DELETE                   &kp PG_UP  &kp PAGE_DOWN     &kp GRAVE         &none  &trans
+ &trans     &kp COLON  &kp BACKSLASH      &kp HOME       &kp END                          &none   &none   &none                   &none  &kp LG(ENTER)  &kp DELETE                   &kp PG_UP  &kp PAGE_DOWN     &kp GRAVE         &none  &trans
             >;
         };
 
