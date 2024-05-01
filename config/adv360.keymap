@@ -17,6 +17,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+#include "combos.keymap"
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
