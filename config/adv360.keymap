@@ -17,7 +17,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-#include "combos.keymap"
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
@@ -89,11 +88,11 @@
 
         layer_command {
             bindings = <
-              &none                 &none          &none           &none          &none      &none                    &none                                                               &none      &none       &none         &none          &none      &none                  &none
-              &none                 &none  &kp LG(COMMA)  &kp LG(PERIOD)      &kp LG(P)  &kp LG(Y)                    &none                                                               &none  &kp LG(F)   &kp LG(G)     &kp LG(C)      &kp LG(R)      &none                  &none
-       &kp LG(LALT)  &kp LG(SINGLE_QUOTE)      &kp LG(O)       &kp LG(E)      &kp LG(U)  &kp LG(I)            &kp LG(PG_UP)        &none   &none                   &none   &none  &kp LG(PG_DN)  &kp LG(D)   &kp LG(H)     &kp LG(T)      &kp LG(N)  &kp LG(L)  &kp LG(RIGHT_CONTROL)
-        &kp LG(TAB)             &kp LG(A)      &kp LG(Q)       &kp LG(J)      &kp LG(K)  &kp LG(X)                                         &none                   &none                         &kp LG(B)   &kp LG(M)     &kp LG(W)      &kp LG(V)  &kp LG(S)          &kp LG(MINUS)
- &kp LG(LEFT_SHIFT)          &kp LG(SEMI)  &kp LG(SLASH)    &kp LG(LEFT)  &kp LG(RIGHT)                       &kp LG(SPACE)  &kp LG(ESC)   &none                   &none   &none          &none             &kp LG(UP)  &kp LG(DOWN)  &kp LG(EQUAL)  &kp LG(Z)    &kp LG(RIGHT_SHIFT)
+              &none                 &none          &none           &none          &none      &none                    &none                                                                      &none      &none       &none         &none          &none      &none                  &none
+              &none                 &none  &kp LG(COMMA)  &kp LG(PERIOD)      &kp LG(P)  &kp LG(Y)                    &none                                                                      &none  &kp LG(F)   &kp LG(G)     &kp LG(C)      &kp LG(R)      &none                  &none
+       &kp LG(LALT)  &kp LG(SINGLE_QUOTE)      &kp LG(O)       &kp LG(E)      &kp LG(U)  &kp LG(I)            &kp LG(PG_UP)        &none   &none                   &none          &none  &kp LG(PG_DN)  &kp LG(D)   &kp LG(H)     &kp LG(T)      &kp LG(N)  &kp LG(L)  &kp LG(RIGHT_CONTROL)
+        &kp LG(TAB)             &kp LG(A)      &kp LG(Q)       &kp LG(J)      &kp LG(K)  &kp LG(X)                                         &none                   &none                                &kp LG(B)   &kp LG(M)     &kp LG(W)      &kp LG(V)  &kp LG(S)          &kp LG(MINUS)
+ &kp LG(LEFT_SHIFT)          &kp LG(SEMI)  &kp LG(SLASH)    &kp LG(LEFT)  &kp LG(RIGHT)                       &kp LG(SPACE)  &kp LG(ESC)   &none                   &none  &kp RG(ENTER)          &none             &kp LG(UP)  &kp LG(DOWN)  &kp LG(EQUAL)  &kp LG(Z)    &kp LG(RIGHT_SHIFT)
             >;
         };
 
