@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-  &kp LC(LA(DEL))             &none      &none       &none      &none   &none                           &mo 2                                                                                              &mo 2   &none   &none     &none      &none   &none      &kp LC(LG(Q))
-            &none  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P   &kp Y                           &none                                                                                              &none   &kp F   &kp G     &kp C      &kp R   &kp L              &none
-            &none             &kp A      &kp O       &kp E      &kp U   &kp I                       &kp PG_UP      &mo 5            &to 0                          &to 1     &kp LALT                  &kp PG_DN   &kp D   &kp H     &kp T      &kp N   &kp S              &none
-          &kp TAB     &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                                                     &kp F11                        &kp F12                                           &kp B   &kp M     &kp W      &kp V   &kp Z          &kp MINUS
- &kp LEFT_CONTROL             &none  &kp SLASH    &kp LEFT  &kp RIGHT                    &mt LEFT_SHIFT SPACE  &lt 6 ESC  &macro_muhenkan                  &macro_henkan  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE          &kp UP  &kp DOWN  &kp EQUAL   &none  &kp RIGHT_COMMAND
+    &kp LC(LG(Q))      &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &mo 2                                                                                              &mo 2  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0  &kp LC(LG(Q))
+          &kp TAB  &kp SINGLE_QUOTE      &kp COMMA    &kp PERIOD         &kp P         &kp Y                           &none                                                                                              &none         &kp F         &kp G         &kp C             &kp R              &kp L      &kp SLASH
+ &kp LEFT_CONTROL             &kp A          &kp O         &kp E         &kp U         &kp I                       &kp PG_UP      &mo 5            &to 0                          &to 1     &kp LALT                  &kp PG_DN         &kp D         &kp H         &kp T             &kp N              &kp S      &kp MINUS
+       &kp LSHIFT     &kp SEMICOLON          &kp Q         &kp J         &kp K         &kp X                                                     &kp F11                        &kp F12                                                 &kp B         &kp M         &kp W             &kp V              &kp Z      &kp EQUAL
+            &none         &kp GRAVE  &kp BACKSLASH      &kp LEFT     &kp RIGHT                          &mt LEFT_SHIFT SPACE  &lt 6 ESC  &macro_muhenkan                  &macro_henkan  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                      &kp UP      &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &mo 6
             >;
         };
 
@@ -68,11 +68,11 @@
 
         layer_control {
             bindings = <
-              &none                 &none          &none           &none          &none      &none                    &none                                                                 &none      &none       &none         &none          &none      &none                  &none
-              &none                 &none  &kp LC(COMMA)  &kp LC(PERIOD)      &kp LC(P)  &kp LC(Y)                    &none                                                                 &none  &kp LC(F)   &kp LC(G)     &kp LC(C)      &kp LC(R)      &none  &kp LC(RIGHT_COMMAND)
-   &kp LC(LEFT_ALT)  &kp LC(SINGLE_QUOTE)      &kp LC(O)       &kp LC(E)      &kp LC(U)  &kp LC(I)            &kp LC(PG_UP)          &none   &none                   &none   &none  &kp LC(PG_DN)  &kp LC(D)   &kp LC(H)     &kp LC(T)      &kp LC(N)  &kp LC(L)                  &none
-        &kp LC(TAB)             &kp LC(A)      &kp LC(Q)       &kp LC(J)      &kp LC(K)  &kp LC(X)                                           &none                   &none                         &kp LC(B)   &kp LC(M)     &kp LC(W)      &kp LC(V)  &kp LC(S)          &kp LC(MINUS)
- &kp LC(LEFT_SHIFT)          &kp LC(SEMI)  &kp LC(SLASH)    &kp LC(LEFT)  &kp LC(RIGHT)                       &kp LC(SPACE)  &kp LC(ENTER)   &none                   &none   &none          &none             &kp LC(UP)  &kp LC(DOWN)  &kp LC(EQUAL)  &kp LC(Z)    &kp LC(RIGHT_SHIFT)
+         &none      &kp LC(NUMBER_1)   &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                    &none                                                                 &none  &kp LC(NUMBER_6)  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)      &kp LC(NUMBER_9)       &kp LC(NUMBER_0)          &none
+   &kp LC(TAB)  &kp LC(SINGLE_QUOTE)      &kp LC(COMMA)    &kp LC(PERIOD)         &kp LC(P)         &kp LC(Y)                    &none                                                                 &none         &kp LC(F)         &kp LC(G)         &kp LC(C)             &kp LC(R)              &kp LC(L)  &kp LC(SLASH)
+         &none             &kp LC(A)          &kp LC(O)         &kp LC(E)         &kp LC(U)         &kp LC(I)            &kp LC(PG_UP)          &none   &none                   &none   &none  &kp LC(PG_DN)         &kp LC(D)         &kp LC(H)         &kp LC(T)             &kp LC(N)              &kp LC(S)  &kp LC(MINUS)
+ &kp LC(LSHFT)          &kp LC(SEMI)          &kp LC(Q)         &kp LC(J)         &kp LC(K)         &kp LC(X)                                           &none                   &none                                &kp LC(B)         &kp LC(M)         &kp LC(W)             &kp LC(V)              &kp LC(Z)  &kp LC(EQUAL)
+         &none         &kp LC(GRAVE)  &kp LC(BACKSLASH)      &kp LC(LEFT)     &kp LC(RIGHT)                              &kp LC(SPACE)  &kp LC(ENTER)   &none                   &none   &none          &none                          &kp LC(UP)      &kp LC(DOWN)  &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)          &none
             >;
         };
 
@@ -98,11 +98,11 @@
 
         layer_function {
             bindings = <
-  &none         &none          &none         &none         &none         &none            &none                                                              &none         &none         &none          &none         &none         &none   &none
-  &none         &none         &kp F2        &kp F3        &kp F4        &kp F5            &none                                                              &none        &kp F6        &kp F7         &kp F8        &kp F9         &none   &none
-  &none        &kp F1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none   &none   &none                   &none          &none       &none  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9       &kp F10   &none
-  &none  &kp NUMBER_1      &kp TILDE      &kp LBKT      &kp LPAR      &kp LBRC                            &none                   &none                                 &kp RBRC      &kp RPAR       &kp RBKT      &kp PIPE  &kp NUMBER_0   &none
- &trans     &kp COLON  &kp BACKSLASH      &kp HOME       &kp END                          &none   &none   &none                   &none  &kp LG(ENTER)  &kp DELETE                   &kp PG_UP  &kp PAGE_DOWN     &kp GRAVE         &none  &trans
+  &none  &kp F1  &kp F2        &kp F3        &kp F4  &kp F5            &none                                                   &none  &kp F6        &kp F7        &kp F8      &kp F9  &kp F10   &none
+  &none   &none   &none         &none         &none   &none            &none                                                   &none   &none         &none         &none       &none    &none   &none
+  &none  &kp F1  &kp F2        &kp F3        &kp F4  &kp F5            &none   &none   &none                   &none   &none   &none  &kp F6        &kp F7        &kp F8      &kp F9  &kp F10   &none
+  &none   &none   &none         &none         &none   &none                            &none                   &none                   &none         &none         &none       &none    &none   &none
+  &none   &none   &none  &kp C_BRI_DN  &kp C_BRI_UP                    &none   &none   &none                   &none   &none   &none          &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE    &none  &trans
             >;
         };
 
