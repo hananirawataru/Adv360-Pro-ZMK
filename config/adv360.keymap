@@ -34,11 +34,11 @@
 
         default_layer {
             bindings = <
-&kp LC(LG(Q))     &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mo 2                                                                                       &mo 2                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp LC(LG(Q))
-&kp TAB           &kp SINGLE_QUOTE  &kp COMMA      &kp PERIOD    &kp P         &kp Y         &none                                                                                       &none                      &kp F         &kp G         &kp C         &kp R             &kp L              &kp SLASH
-&kp LEFT_CONTROL  &kp A             &kp O          &kp E         &kp U         &kp I         &kp PG_UP             &mo 5      &to 0                    &to 1                &kp LALT     &kp PG_DN                  &kp D         &kp H         &kp T         &kp N             &kp S              &kp MINUS
-&kp LSHIFT        &kp SEMICOLON     &kp Q          &kp J         &kp K         &kp X                                          &kp F11                  &kp F12                                                      &kp B         &kp M         &kp W         &kp V             &kp Z              &kp EQUAL
-&none             &kp GRAVE         &kp BACKSLASH  &kp LEFT      &kp RIGHT                   &mt LEFT_SHIFT SPACE  &lt 6 ESC  &kp INTERNATIONAL_5      &kp INTERNATIONAL_4  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 6
+&kp LC(LG(Q))     &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mo 2                                                               &mo 2                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp LC(LG(Q))
+&kp TAB           &kp SINGLE_QUOTE  &kp COMMA      &kp PERIOD    &kp P         &kp Y         &none                                                               &none                      &kp F         &kp G         &kp C         &kp R             &kp L              &kp SLASH
+&kp LEFT_CONTROL  &kp A             &kp O          &kp E         &kp U         &kp I         &kp PG_UP             &mo 5      &to 0        &to 1    &kp LALT     &kp PG_DN                  &kp D         &kp H         &kp T         &kp N             &kp S              &kp MINUS
+&kp LSHIFT        &kp SEMICOLON     &kp Q          &kp J         &kp K         &kp X                                          &kp F11      &kp F12                                          &kp B         &kp M         &kp W         &kp V             &kp Z              &kp EQUAL
+&kp C_RESET       &kp GRAVE         &kp BACKSLASH  &kp LEFT      &kp RIGHT                   &mt LEFT_SHIFT SPACE  &lt 6 ESC  &kp F13      &kp F14  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &bootloader
             >;
         };
 
