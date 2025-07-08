@@ -106,6 +106,81 @@
             bindings = <&none>;
             key-positions = <65 51>;
         };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 22>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 23>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 24>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 25>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 26>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 40>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 41>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 42>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 43>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 44>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 54>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 55>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 56>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 57>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <70 58>;
+        };
     };
 
     macros {
@@ -196,106 +271,120 @@
         OYA_SA: OYA_SA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp S &kp A>;
             label = "OYA_SA";
         };
 
         OYA_SI: OYA_SI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp S &kp I>;
             label = "OYA_SI";
         };
 
         OYA_SU: OYA_SU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp S &kp U>;
             label = "OYA_SU";
         };
 
         OYA_SE: OYA_SE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp S &kp E>;
             label = "OYA_SE";
         };
 
         OYA_SO: OYA_SO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp S &kp O>;
             label = "OYA_SO";
         };
 
         OYA_TA: OYA_TA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp T &kp A>;
             label = "OYA_TA";
         };
 
         OYA_TI: OYA_TI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp T &kp I>;
             label = "OYA_TI";
         };
 
         OYA_TU: OYA_TU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp T &kp U>;
             label = "OYA_TU";
         };
 
         OYA_TE: OYA_TE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp T &kp E>;
             label = "OYA_TE";
         };
 
         OYA_TO: OYA_TO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp T &kp O>;
             label = "OYA_TO";
         };
 
         OYA_NA: OYA_NA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp N &kp A>;
             label = "OYA_NA";
         };
 
         OYA_NI: OYA_NI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp N &kp I>;
             label = "OYA_NI";
         };
 
         OYA_NU: OYA_NU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp N &kp U>;
             label = "OYA_NU";
         };
 
         OYA_NE: OYA_NE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp N &kp E>;
             label = "OYA_NE";
         };
 
         OYA_NO: OYA_NO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp N &kp O>;
             label = "OYA_NO";
+        };
+
+        OYA_HA: OYA_HA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp A>;
+            label = "OYA_HA";
+        };
+
+        OYA_HI: OYA_HI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp I>;
+            label = "OYA_HI";
         };
     };
 
