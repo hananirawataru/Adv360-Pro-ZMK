@@ -34,37 +34,81 @@
 
         CMB_A {
             bindings = <&OYA_A>;
-            key-positions = <65 31>;
+            key-positions = <65 15>;
         };
 
         CMB_MI {
             bindings = <&OYA_MI>;
-            key-positions = <70 41>;
+            key-positions = <65 16>;
+        };
+
+        a {
+            bindings = <&none>;
+            key-positions = <65 17>;
+        };
+
+        b {
+            bindings = <&none>;
+            key-positions = <65 18>;
+        };
+
+        s {
+            bindings = <&none>;
+            key-positions = <65 19>;
+        };
+
+        d {
+            bindings = <&none>;
+            key-positions = <65 29>;
+        };
+
+        f {
+            bindings = <&none>;
+            key-positions = <65 30>;
+        };
+
+        f {
+            bindings = <&none>;
+            key-positions = <65 31>;
+        };
+
+        f {
+            bindings = <&none>;
+            key-positions = <65 32>;
+        };
+
+        g {
+            bindings = <&none>;
+            key-positions = <65 33>;
+        };
+
+        q {
+            bindings = <&none>;
+            key-positions = <65 47>;
+        };
+
+        q {
+            bindings = <&none>;
+            key-positions = <65 48>;
+        };
+
+        q {
+            bindings = <&none>;
+            key-positions = <65 49>;
+        };
+
+        q {
+            bindings = <&none>;
+            key-positions = <65 50>;
+        };
+
+        q {
+            bindings = <&none>;
+            key-positions = <65 51>;
         };
     };
 
     macros {
-        OYA_A: a {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A>;
-            label = "A";
-        };
-
-        OYA_HA: ha {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp H &kp A>;
-            label = "HA";
-        };
-
-        OYA_MI: OYA_MI {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp M &kp I>;
-            label = "OYA_MI";
-        };
-
         KANA: KANA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -78,6 +122,181 @@
             bindings = <&to 0 &kp CAPS>;
             label = "EISU";
         };
+
+        OYA_A: OYA_A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>;
+            label = "OYA_A";
+        };
+
+        OYA_I: OYA_I {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I>;
+            label = "OYA_I";
+        };
+
+        OYA_U: OYA_U {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U>;
+            label = "OYA_U";
+        };
+
+        OYA_E: OYA_E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E>;
+            label = "OYA_E";
+        };
+
+        OYA_O: OYA_O {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O>;
+            label = "OYA_O";
+        };
+
+        OYA_KA: OYA_KA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A>;
+            label = "OYA_KA";
+        };
+
+        OYA_KI: OYA_KI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp I>;
+            label = "OYA_KI";
+        };
+
+        OYA_KU: OYA_KU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp U>;
+            label = "OYA_KU";
+        };
+
+        OYA_KE: OYA_KE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp E>;
+            label = "OYA_KE";
+        };
+
+        OYA_KO: OYA_KO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp O>;
+            label = "OYA_KO";
+        };
+
+        OYA_SA: OYA_SA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_SA";
+        };
+
+        OYA_SI: OYA_SI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_SI";
+        };
+
+        OYA_SU: OYA_SU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_SU";
+        };
+
+        OYA_SE: OYA_SE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_SE";
+        };
+
+        OYA_SO: OYA_SO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_SO";
+        };
+
+        OYA_TA: OYA_TA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_TA";
+        };
+
+        OYA_TI: OYA_TI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_TI";
+        };
+
+        OYA_TU: OYA_TU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_TU";
+        };
+
+        OYA_TE: OYA_TE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_TE";
+        };
+
+        OYA_TO: OYA_TO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_TO";
+        };
+
+        OYA_NA: OYA_NA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_NA";
+        };
+
+        OYA_NI: OYA_NI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_NI";
+        };
+
+        OYA_NU: OYA_NU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_NU";
+        };
+
+        OYA_NE: OYA_NE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_NE";
+        };
+
+        OYA_NO: OYA_NO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "OYA_NO";
+        };
     };
 
     keymap {
@@ -87,7 +306,7 @@
             bindings = <
 &kp LC(LG(Q))     &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mo 2                                                           &mo 2                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp LC(LG(Q))
 &kp TAB           &kp SINGLE_QUOTE  &kp COMMA      &kp PERIOD    &kp P         &kp Y         &none                                                           &none                      &kp F         &kp G         &kp C         &kp R             &kp L              &kp SLASH
-&kp LEFT_CONTROL  &kp A             &kp O          &kp E         &kp U         &kp I         &kp PG_UP             &mo 5      &to 0      &to 1  &mo 3        &kp PG_DN                  &kp D         &kp H         &kp T         &kp N             &kp S              &kp MINUS
+&kp LEFT_CONTROL  &kp A             &kp O          &kp E         &kp U         &kp I         &kp PG_UP             &kp LGUI   &to 0      &to 1  &mo 3        &kp PG_DN                  &kp D         &kp H         &kp T         &kp N             &kp S              &kp MINUS
 &kp LSHIFT        &kp SEMICOLON     &kp Q          &kp J         &kp K         &kp X                                          &mo 6      &mo 4                                          &kp B         &kp M         &kp W         &kp V             &kp Z              &kp EQUAL
 &none             &kp GRAVE         &kp BACKSLASH  &kp LEFT      &kp RIGHT                   &mt LEFT_SHIFT SPACE  &lt 5 ESC  &EISU      &KANA  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &bootloader
             >;
