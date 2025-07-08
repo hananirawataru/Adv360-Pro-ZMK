@@ -274,7 +274,7 @@
 
         CMB_BA {
             bindings = <&OYA_BA>;
-            key-positions = <65 40 46>;
+            key-positions = <65 40>;
         };
 
         CMB_DO {
