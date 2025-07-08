@@ -181,6 +181,156 @@
             bindings = <&OYA_XO>;
             key-positions = <70 58>;
         };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <15 70>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 16>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 17>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 18>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 19>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 29>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 30>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 31>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 32>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 33>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 47>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 48>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 49>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 50>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <70 51>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 22>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 23>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 24>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 25>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 26>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 40>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 41>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 42>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 43>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 44>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 54>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 55>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 56>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 57>;
+        };
+
+        CMB_ {
+            bindings = <&OYA_XO>;
+            key-positions = <65 58>;
+        };
     };
 
     macros {
