@@ -519,6 +519,62 @@
             bindings = <&kp N &kp N>;
             label = "OYA_NN";
         };
+
+        OYA_XA: OYA_XA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp A>;
+            label = "OYA_XA";
+        };
+
+        OYA_XI: OYA_XI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp I>;
+            label = "OYA_XI";
+        };
+
+        OYA_XU: OYA_XU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp U>;
+            label = "OYA_XU";
+        };
+
+        OYA_XE: OYA_XE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp E>;
+            label = "OYA_XE";
+        };
+
+        OYA_XO: OYA_XO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp O>;
+            label = "OYA_XO";
+        };
+
+        OYA_TEN: OYA_TEN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>;
+            label = "OYA_TEN";
+        };
+
+        OYA_MARU: OYA_MARU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PERIOD>;
+            label = "OYA_MARU";
+        };
+
+        OYA_TYOUONPU: OYA_TYOUONPU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>;
+            label = "OYA_TYOUONPU";
+        };
     };
 
     keymap {
@@ -536,11 +592,11 @@
 
         layer_OYAINPUT {
             bindings = <
-&none   &none            &none            &none      &none      &none      &none                                       &none   &none      &none      &none      &none        &none             &trans
-&none   &macro_JPN1      &macro_KA        &macro_TA  &macro_KO  &macro_SA  &none                                       &none   &macro_RA  &macro_TI  &macro_KU  &macro_TU    &none             &trans
-&none   &macro_JPPERIOD  &macro_SI        &macro_TE  &macro_KE  &macro_SE  &trans  &trans  &trans      &trans  &trans  &trans  &OYA_HA    &macro_TO  &macro_KI  &macro_I     &macro_JPCOMMA1   &trans
-&trans  &macro_U         &macro_HI        &macro_SU  &macro_HU  &macro_HE                  &trans      &trans                  &macro_ME  &macro_SO  &macro_NE  &macro_HO    &macro_NN         &macro_JPMINUS1
-&trans  &macro_JPTEN     &macro_JPCOMMA2  &trans     &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &macro_JPEN  &macro_JPNAKATEN  &trans
+&trans  &trans     &trans   &trans   &trans   &trans   &trans                                      &trans  &trans   &trans   &trans   &trans   &trans    &trans
+&trans  &OYA_MARU  &OYA_KA  &OYA_TA  &OYA_KO  &OYA_SA  &trans                                      &trans  &OYA_RA  &OYA_TI  &OYA_KU  &OYA_TU  &OYA_TEN  &trans
+&trans  &OYA_U     &OYA_SI  &OYA_TE  &OYA_KE  &OYA_SE  &trans  &trans  &trans      &trans  &trans  &trans  &OYA_HA  &OYA_TO  &OYA_KI  &OYA_I   &OYA_NN   &trans
+&trans  &none      &OYA_HI  &OYA_SU  &OYA_HU  &OYA_HE                  &trans      &trans                  &OYA_ME  &OYA_SO  &OYA_NE  &OYA_HO  &none     &trans
+&trans  &trans     &trans   &trans   &trans            &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &trans   &trans    &trans
             >;
         };
 
