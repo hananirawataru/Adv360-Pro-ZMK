@@ -107,78 +107,78 @@
             key-positions = <65 51>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_YO {
+            bindings = <&OYA_YO>;
             key-positions = <70 22>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_NI {
+            bindings = <&OYA_NI>;
             key-positions = <70 23>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_RU {
+            bindings = <&OYA_RU>;
             key-positions = <70 24>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_MA {
+            bindings = <&OYA_MA>;
             key-positions = <70 25>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_XE {
+            bindings = <&OYA_XE>;
             key-positions = <70 26>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_MI {
+            bindings = <&OYA_MI>;
             key-positions = <70 40>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_O {
+            bindings = <&OYA_O>;
             key-positions = <70 41>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_NO {
+            bindings = <&OYA_NO>;
             key-positions = <70 42>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_XYO {
+            bindings = <&OYA_XYO>;
             key-positions = <70 43>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_XTU {
+            bindings = <&OYA_XTU>;
             key-positions = <70 44>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_NU {
+            bindings = <&OYA_NU>;
             key-positions = <70 54>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_YU {
+            bindings = <&OYA_YU>;
             key-positions = <70 55>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_MU {
+            bindings = <&OYA_MU>;
             key-positions = <70 56>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_WA {
+            bindings = <&OYA_WA>;
             key-positions = <70 57>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_XO {
+            bindings = <&OYA_XO>;
             key-positions = <70 58>;
         };
     };
