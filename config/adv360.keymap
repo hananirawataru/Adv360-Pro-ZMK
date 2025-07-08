@@ -32,8 +32,8 @@
     combos {
         compatible = "zmk,combos";
 
-        CMB_A {
-            bindings = <&OYA_A>;
+        CMB_XA {
+            bindings = <&OYA_XA>;
             key-positions = <65 15>;
         };
 
@@ -574,6 +574,34 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS>;
             label = "OYA_TYOUONPU";
+        };
+
+        OYA_XTU: OYA_XTU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp T &kp U>;
+            label = "OYA_XTU";
+        };
+
+        OYA_XYA: OYA_XYA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp A>;
+            label = "OYA_XYA";
+        };
+
+        OYA_XYU: OYA_XYU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp U>;
+            label = "OYA_XYU";
+        };
+
+        OYA_XYO: OYA_XYO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp O>;
+            label = "OYA_XYO";
         };
     };
 
