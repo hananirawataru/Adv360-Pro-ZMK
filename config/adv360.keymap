@@ -37,73 +37,73 @@
             key-positions = <65 15>;
         };
 
-        CMB_MI {
-            bindings = <&OYA_MI>;
+        CMB_E {
+            bindings = <&OYA_E>;
             key-positions = <65 16>;
         };
 
-        a {
-            bindings = <&none>;
+        CMB_RI {
+            bindings = <&OYA_RI>;
             key-positions = <65 17>;
         };
 
-        b {
-            bindings = <&none>;
+        CMB_XYA {
+            bindings = <&OYA_XYA>;
             key-positions = <65 18>;
         };
 
-        s {
-            bindings = <&none>;
+        CMB_RE {
+            bindings = <&OYA_RE>;
             key-positions = <65 19>;
         };
 
-        d {
-            bindings = <&none>;
+        CMB_WO {
+            bindings = <&OYA_WO>;
             key-positions = <65 29>;
         };
 
-        f {
-            bindings = <&none>;
+        CMB_A {
+            bindings = <&OYA_A>;
             key-positions = <65 30>;
         };
 
-        f {
-            bindings = <&none>;
+        CMB_NA {
+            bindings = <&OYA_NA>;
             key-positions = <65 31>;
         };
 
-        f {
-            bindings = <&none>;
+        CMB_XYU {
+            bindings = <&OYA_XYU>;
             key-positions = <65 32>;
         };
 
-        g {
-            bindings = <&none>;
+        CMB_MO {
+            bindings = <&OYA_MO>;
             key-positions = <65 33>;
         };
 
-        q {
-            bindings = <&none>;
+        CMB_XU {
+            bindings = <&OYA_XU>;
             key-positions = <65 47>;
         };
 
-        q {
-            bindings = <&none>;
+        CMB_TYOUONPU {
+            bindings = <&OYA_TYOUONPU>;
             key-positions = <65 48>;
         };
 
-        q {
-            bindings = <&none>;
+        CMB_RO {
+            bindings = <&OYA_RO>;
             key-positions = <65 49>;
         };
 
-        q {
-            bindings = <&none>;
+        CMB_YA {
+            bindings = <&OYA_YA>;
             key-positions = <65 50>;
         };
 
-        q {
-            bindings = <&none>;
+        CMB_XI {
+            bindings = <&OYA_XI>;
             key-positions = <65 51>;
         };
 
