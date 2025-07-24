@@ -313,12 +313,12 @@
         };
 
         CMB_MUHENKAN {
-            bindings = <&kp INT_MUHENKAN>;
+            bindings = <&EISU>;
             key-positions = <30 31>;
         };
 
         CMB_HENKAN {
-            bindings = <&kp INT_HENKAN>;
+            bindings = <&KANA>;
             key-positions = <42 43>;
         };
     };
