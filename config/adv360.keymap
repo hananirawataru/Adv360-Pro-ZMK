@@ -311,6 +311,16 @@
             bindings = <&OYA_BO>;
             key-positions = <65 57>;
         };
+
+        CMB_MUHENKAN {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <30 31>;
+        };
+
+        CMB_HENKAN {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <42 43>;
+        };
     };
 
     macros {
@@ -915,31 +925,31 @@
 
         default_layer {
             bindings = <
-&kp LC(LG(Q))     &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mo 2                                                           &mo 2                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp LC(LG(Q))
+&kp ESCAPE        &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mo 2                                                           &mo 2                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp LC(LG(Q))
 &kp TAB           &kp SINGLE_QUOTE  &kp COMMA      &kp PERIOD    &kp P         &kp Y         &none                                                           &none                      &kp F         &kp G         &kp C         &kp R             &kp L              &kp SLASH
 &kp LEFT_CONTROL  &kp A             &kp O          &kp E         &kp U         &kp I         &kp PG_UP             &kp LGUI   &to 0      &to 1  &mo 3        &kp PG_DN                  &kp D         &kp H         &kp T         &kp N             &kp S              &kp MINUS
 &kp LSHIFT        &kp SEMICOLON     &kp Q          &kp J         &kp K         &kp X                                          &mo 6      &mo 4                                          &kp B         &kp M         &kp W         &kp V             &kp Z              &kp EQUAL
-&none             &kp GRAVE         &kp BACKSLASH  &kp LEFT      &kp RIGHT                   &mt LEFT_SHIFT SPACE  &lt 5 ESC  &EISU      &KANA  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &bootloader
+&kp BACKSPACE     &kp GRAVE         &kp BACKSLASH  &kp LEFT      &kp RIGHT                   &mt LEFT_SHIFT SPACE  &lt 5 ESC  &EISU      &KANA  &lt 3 ENTER  &mt RIGHT_SHIFT BACKSPACE                &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_ALT
             >;
         };
 
         layer_OYAINPUT {
             bindings = <
-&trans  &trans     &trans   &trans   &trans   &trans   &trans                                      &trans  &trans   &trans   &trans   &trans   &trans    &trans
-&trans  &OYA_MARU  &OYA_KA  &OYA_TA  &OYA_KO  &OYA_SA  &trans                                      &trans  &OYA_RA  &OYA_TI  &OYA_KU  &OYA_TU  &OYA_TEN  &trans
-&trans  &OYA_U     &OYA_SI  &OYA_TE  &OYA_KE  &OYA_SE  &trans  &trans  &trans      &trans  &trans  &trans  &OYA_HA  &OYA_TO  &OYA_KI  &OYA_I   &OYA_NN   &trans
-&trans  &none      &OYA_HI  &OYA_SU  &OYA_HU  &OYA_HE                  &trans      &trans                  &OYA_ME  &OYA_SO  &OYA_NE  &OYA_HO  &none     &trans
-&trans  &trans     &trans   &trans   &trans            &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &trans   &trans    &trans
+&trans  &trans     &trans   &trans   &trans   &trans   &trans                                      &trans  &trans   &trans   &trans   &trans   &trans     &trans
+&trans  &OYA_MARU  &OYA_KA  &OYA_TA  &OYA_KO  &OYA_SA  &trans                                      &trans  &OYA_RA  &OYA_TI  &OYA_KU  &OYA_TU  &OYA_TEN   &trans
+&trans  &OYA_U     &OYA_SI  &OYA_TE  &OYA_KE  &OYA_SE  &trans  &trans  &trans      &trans  &trans  &trans  &OYA_HA  &OYA_TO  &OYA_KI  &OYA_I   &OYA_NN    &trans
+&trans  &none      &OYA_HI  &OYA_SU  &OYA_HU  &OYA_HE                  &trans      &trans                  &OYA_ME  &OYA_SO  &OYA_NE  &OYA_HO  &kp SLASH  &trans
+&trans  &trans     &trans   &trans   &trans            &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &trans   &trans     &trans
             >;
         };
 
         layer_BLUETOOTH {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none                                                           &none        &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none                                                           &none        &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &bootloader  &none  &bt BT_SEL 0      &bt BT_SEL 1  &none       &bootloader  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                      &none             &none                                  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none         &none        &none  &none             &none         &bt BT_CLR  &none               &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none                                                                      &none        &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none                                                                      &none        &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &bootloader  &bt BT_SEL 0  &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 1  &bootloader  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                             &none             &none                                      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none         &none        &none         &none             &bt BT_CLR_ALL  &none         &none               &none  &none  &none  &none  &none
             >;
         };
 
